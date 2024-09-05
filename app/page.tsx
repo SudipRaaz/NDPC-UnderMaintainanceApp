@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import NavBar from "./components/navbar";
 
 export default function Home() {
   return (
@@ -8,11 +9,15 @@ export default function Home() {
         <title>Nepal Digital Payments Company</title>
       </head>
 
+      <NavBar/>
+
       <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100 text-gray-700">
         <div className="w-72 h-72 mb-8">
           {/* Replace the src with your SVG/GIF URL */}
           <Image
             src="underMaintaince.svg"
+            width="500"
+            height="500"
             alt="Under Maintenance Animation"
             className="w-full h-full object-contain animate-pulse"
           />
@@ -49,7 +54,7 @@ export default function Home() {
               Call Us (NTC)
             </a>
             <a
-              href="tel:16600150500"
+              href="tel:18102150500"
               className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
             >
               Call Us (NCELL)

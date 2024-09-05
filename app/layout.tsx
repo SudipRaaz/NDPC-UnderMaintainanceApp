@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -17,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
+      <title>head</title>
+      <link rel="icon" href="/ndpc_logo.jpg" />
+
       <body className={inter.className}>{children}</body>
     </html>
   );
