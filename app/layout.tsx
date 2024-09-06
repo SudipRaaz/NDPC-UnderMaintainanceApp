@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NDPC App",
+  title: "Nepal Digital Payment Company Ltd",
   description: "Corporate website",
 };
 
@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <title>head</title>
+      <title>Nepal Digital Payment Company Ltd</title>
       <link rel="icon" href="/ndpc_logo.jpg" />
 
       <body className={inter.className}>{children}</body>

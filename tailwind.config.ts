@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         primaryNdpc: '#26407B',
-        SecondaryNdpc: '#E60A10'
+        SecondaryNdpc: '#E60A10',
+        buttonColorNdpc: '#3B82F6'
       },
       
       backgroundImage: {
