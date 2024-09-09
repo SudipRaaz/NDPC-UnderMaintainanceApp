@@ -34,15 +34,26 @@ export default function Home() {
 
           <div className="divider"></div>
           {/*  Namaste Pay website*/}
-          <h2>In the mean time, check our Product - Namaste Pay</h2>
-          <div className="flex items-center justify-center space-x-4">
-            <Link
-              href="https://www.namastepay.com/"
-              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-gray-600"
-            >
-              Visit Namastepay Website
-            </Link>
-            
+          <div className=" gap-2">
+            <h2 className="align-middle leading-10">
+              In the mean time, check our Product
+            </h2>
+
+            <div className=" items-center justify-center space-x-4">
+              <Link
+                href="https://www.namastepay.com/"
+                className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-black flex"
+              >
+                
+                <Image
+                  src={"/namastepay_logo.png"}
+                  alt={"Namaste Pay"}
+                  width= {300}
+                  height={300}
+                  className="w-auto h-[50px] flex items-center justify-center"
+                />
+              </Link>
+            </div>
           </div>
         </div>
       </div>
